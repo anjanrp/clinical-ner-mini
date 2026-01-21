@@ -10,10 +10,15 @@ venv/
 # Jupyter
 .ipynb_checkpoints/
 
-# Hugging Face / datasets cache (optional)
+# Hugging Face / datasets cache
 .cache/
-datasets/
+hf_cache/
+huggingface/
+**/.cache/huggingface/
+**/.cache/torch/
+**/.cache/transformers/
 wandb/
+
 
 # Outputs/logs
 outputs/
