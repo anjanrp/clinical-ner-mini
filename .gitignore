@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual envs
+.env/
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Hugging Face / datasets cache (optional)
+.cache/
+datasets/
+wandb/
+
+# Outputs/logs
+outputs/
+
+# macOS
+.DS_Store
